@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context=".Signup"
+    android:background="#869E98">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/colorPrimary"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please Register here with vaild Name and Email"
+        android:textSize="35dp"
+        android:textColor="#FFEB3B"
+        android:gravity="center"/>
+
+          <EditText
+              android:id="@+id/et1"
+              android:layout_width="match_parent"
+              android:layout_height="60dp"
+              android:textColorHint="#000"
+              android:layout_marginTop="140dp"
+              android:hint="UserName"
+              android:gravity="center"
+              android:layout_marginRight="30dp"
+              android:layout_marginLeft="30dp"
+              android:background="#FFFFFF"
+              android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textColorHint="#000"
+        android:layout_marginTop="30dp"
+        android:hint="Email"
+        android:gravity="center"
+        android:layout_below="@id/et1"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:background="#FFFFFF"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/et3"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textColorHint="#000"
+        android:layout_marginTop="30dp"
+        android:hint="Password"
+        android:gravity="center"
+        android:layout_below="@id/et2"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:background="#FFFFFF"
+        android:textSize="20dp"/>
+
+
+    <EditText
+        android:id="@+id/et4"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textColorHint="#000"
+        android:layout_marginTop="30dp"
+        android:hint="Re-enter Password"
+        android:gravity="center"
+        android:layout_below="@id/et3"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:background="#FFFFFF"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="110dp"
+        android:text="Register"
+        android:textSize="25dp"
+        android:layout_below="@id/et4"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textv1"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/btn_register"
+        android:text="Already registered....Login here"
+        android:textColor="#FD2903"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>

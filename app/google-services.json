@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "120031631495",
+    "firebase_url": "https://online-aptitude-test-501bd.firebaseio.com",
+    "project_id": "online-aptitude-test-501bd",
+    "storage_bucket": "online-aptitude-test-501bd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:120031631495:android:df877006f92cba41dbc022",
+        "android_client_info": {
+          "package_name": "com.example.onlineaptitudetest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "120031631495-56ug0o2f05smrmovge6fap8t91a5ateu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.onlineaptitudetest",
+            "certificate_hash": "1434a9344e77b75698173d86d98474d79ec047a9"
+          }
+        },
+        {
+          "client_id": "120031631495-liviejl0m52gqojahl0p67mvfq89v3bl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2e7Gr47jZTrqi67kL-0u92ZihiUDqh-k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "120031631495-liviejl0m52gqojahl0p67mvfq89v3bl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

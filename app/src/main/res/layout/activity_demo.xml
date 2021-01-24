@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Demo">
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/rl1"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        >
+
+        <TextView
+            android:id="@+id/tv_question"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:textAlignment="center"
+            android:layout_marginTop="30dp"
+            android:padding="10dp"
+            android:text="Question will be here!!!"
+            android:textSize="20dp"
+            android:textColor="#070707"
+
+            />
+
+
+
+    </RelativeLayout
+        >
+
+
+
+
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/rl2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/rl1"
+        >
+
+       <LinearLayout
+           android:id="@+id/ll1"
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:padding="10dp"
+           android:paddingTop="10dp"
+           android:orientation="horizontal"
+           >
+
+           <Button
+               android:id="@+id/button1"
+               android:layout_width="0dp"
+               android:layout_height="match_parent"
+               android:layout_weight="1"
+               android:background="#A698FD33"
+               android:padding="10dp"
+               android:layout_margin="5dp"
+               android:textAlignment="center"
+               android:textSize="20dp"
+               android:layout_marginEnd="10dp"
+               android:text="Option 1"
+               />
+
+           <Button
+               android:id="@+id/button2"
+               android:layout_width="0dp"
+               android:layout_height="match_parent"
+               android:layout_weight="1"
+               android:background="#A698FD33"
+               android:padding="10dp"
+               android:layout_margin="5dp"
+               android:textAlignment="center"
+               android:textSize="20dp"
+               android:text="Option 2"
+               />
+
+
+
+
+
+       </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/ll2"
+            android:layout_below="@id/ll1"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:padding="10dp"
+            android:paddingTop="10dp"
+            android:orientation="horizontal"
+            >
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#A698FD33"
+                android:padding="10dp"
+                android:layout_margin="5dp"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:layout_marginEnd="10dp"
+                android:text="Option 3"
+                />
+e
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#A698FD33"
+                android:padding="10dp"
+                android:layout_margin="5dp"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:text="Option 4"
+                />
+
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:id="@+id/ll3"
+            android:layout_below="@id/ll2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            >
+
+
+            <TextView
+                android:id="@+id/tv_timer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="00:00"
+                android:textSize="30dp"
+                android:textAlignment="center"
+                />
+
+
+        </LinearLayout>
+
+
+
+
+    </RelativeLayout
+        >
+
+
+
+
+
+
+</RelativeLayout>

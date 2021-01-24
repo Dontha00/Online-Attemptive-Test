@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.onlineaptitudetest">
+
+    <application
+
+        android:allowBackup="true"
+        android:icon="@drawable/idea"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:name="com.example.onlineaptitudetest.Test_java">
+
+        <activity android:name="com.example.onlineaptitudetest.Demo"></activity>
+        <activity android:name="com.example.onlineaptitudetest.Result" />
+        <activity android:name="com.example.onlineaptitudetest.Test" />
+        <activity android:name="com.example.onlineaptitudetest.Profile" />
+        <activity android:name="com.example.onlineaptitudetest.HomeActivity" />
+        <activity android:name="com.example.onlineaptitudetest.Signup" />
+        <activity android:name="com.example.onlineaptitudetest.Loginpage" />
+        <activity android:name="com.example.onlineaptitudetest.SPALSHSCREEN">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.onlineaptitudetest.MainActivity" />
+    </application>
+
+</manifest>

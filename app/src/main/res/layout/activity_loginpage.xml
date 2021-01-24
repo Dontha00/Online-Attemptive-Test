@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Loginpage"
+    android:background="#DDFA0E06"
+    android:layout_gravity="center"
+    >
+
+    <RelativeLayout
+        android:id="@+id/rl"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/colorPrimary"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter valid Email and Password"
+        android:textSize="35dp"
+        android:textColor="#fff"
+        android:gravity="center"
+        />
+
+
+    <EditText
+        android:layout_below="@id/rl"
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#fff"
+        android:textColor="#030303"
+        android:layout_marginTop="80dp"
+        android:textSize="30dp"
+        android:hint="Email"
+        android:textAlignment="center"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Password"
+        android:layout_below="@id/et_email"
+        android:background="#fff"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"
+        android:inputType="textPassword" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:id="@+id/btn_submit"
+        android:layout_below="@id/et_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textColor="#0A0A0A"
+        android:textSize="25dp"
+        android:text="submit" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_submit"
+        android:id="@+id/text1"
+        android:layout_marginTop="10dp"
+        android:text="You can Register here"
+        android:textColor="#F70E06"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>
